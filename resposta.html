@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Achar local</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body onload="tratarData()">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Ache o local!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ajuda.html">Ajuda</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                Todos os direitos reservados
+              </span>
+            </div>
+        </nav>    
+    </header>
+<div class="container">
+
+    <table style="width:100%" class="table table-striped" id="tabela_Resposta">
+        <thead class="thead-dark">
+            <tr>
+                <th>Cidade</th>
+                <th>País</th>
+                <th>Região/Estado</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+
+            </tr>
+        </thead>
+        <tbody jput="tbody_template">
+            
+        </tbody>
+    </table>
+</div>
+    <script src="/Html/main.js"></script>
+</body>
+
+</html>
